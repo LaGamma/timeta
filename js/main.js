@@ -1,17 +1,11 @@
 $(document).ready(function() {
-	$('#hextime,#author').fadeOut(400, function (){})
-		.done(update)
-		.fail(handleErr);
-	});
-
+	$('#hextime,#author').fadeOut(400, update());
 
 	$('#time-request').click(function() {
-		$('#hextime').fadeOut(400, function (){})
-			.done(update)
-			.fail(handleErr);		    
+		$('#hextime').fadeOut(400, update());
 	});
 
-	function update(response) {
+	function update() {
 	  //$('#log').prepend('<pre>' + $('#response').html() + '</pre>');
 	  $('#hextime,#author').fadeIn();
 	}
