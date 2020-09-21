@@ -12,8 +12,7 @@ $(document).ready(function() {
 		if (s<=9) {s = '0'+s};
 
 		var color = '#'+h+m+s;
-		document.body.style.backgroundColor = color;
-		//$("body").css("background-color", color);
+		document.querySelector('body').style.background = color;
 		$("#hextime").text(color);
 		setTimeout(refreshData, x*1000);
 	}
