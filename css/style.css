@@ -1,8 +1,8 @@
 body {
 	background:#333;
 	color:#fff;
-	font-weight: 100;
 	font-family: 'Lato', Helvetiva, Arial, sans-serif;
+	font-weight: 100;
 	margin:0;
 	width:100%;
 	height:100%;
@@ -51,7 +51,6 @@ body {
 }
 .time {
 	color: white;
-	font-family: 'Lato', Helvetiva, Arial, sans-serif;
 	text-align: center;
 	font-size: 4.5em;
 	display: block;
